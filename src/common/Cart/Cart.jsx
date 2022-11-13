@@ -54,7 +54,7 @@ const Cart = ({ CartItem, addToCart, decreaseQty }) => {
           </div>
 
           <div className='cart-total product'>
-            <h2>Sepet Özeti</h2>
+            <h2>Deepo Sepetim <br /> Toplam Tutar:</h2>
             <div className=' d_flex'>
               <h4>Toplam Fiyat :</h4>
               <h3>₺{totalPrice}.00</h3>
