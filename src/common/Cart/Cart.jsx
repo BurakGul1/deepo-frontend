@@ -12,7 +12,7 @@ const Cart = ({ CartItem, addToCart, decreaseQty }) => {
         <div className='container d_flex'>
 
           <div className='cart-details'>
-            {CartItem.length === 0 && <h1 className='no-items product'>Şu anda sepetinizde ürün bulunmamaktadır. Hadi sepetinize biraz ürün ekleyin.</h1>}
+            {CartItem.length === 0 && <h1 className='no-items product'>Şu anda favorilerde ürün bulunmamaktadır. Hadi favorilerinize biraz ürün ekleyin.</h1>}
 
 
             {CartItem.map((item) => {
@@ -54,7 +54,7 @@ const Cart = ({ CartItem, addToCart, decreaseQty }) => {
           </div>
 
           <div className='cart-total product'>
-            <h2>Deepo Sepetim <br /> Toplam Tutar:</h2>
+            <h2>Deepo favorilerindeki ürün fiyatı toplamı <br /> Toplam Tutar:</h2>
             <div className=' d_flex'>
               <h4>Toplam Fiyat :</h4>
               <h3>₺{totalPrice}.00</h3>

@@ -17,8 +17,7 @@ const Head = () => {
             <label>Yardım?</label>
             <span>🏳️</span>
             <label>TUR</label>
-            <span>🏳️</span>
-            <label>EN</label>
+           
           </div>
         </div>
       </section>
