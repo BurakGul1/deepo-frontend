@@ -25,7 +25,7 @@ const SlideCard = () => {
                 <div className='left'>
                   <h1>{value.title}</h1>
                   <p>{value.desc}</p>
-                  <button className='btn-primary'>Şimdi Sepete Ekleyin</button>
+                  <button className='btn-primary'>Şimdi Favorilere Ekleyin</button>
                 </div>
                 <div className='right'>
                   <img src={value.cover} alt='' />

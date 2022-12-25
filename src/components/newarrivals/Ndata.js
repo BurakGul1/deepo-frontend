@@ -1,33 +1,33 @@
 const Ndata = [
   {
     cover: "./images/arrivals/arrivals1.png",
-    name: "Güneş Gözlüğü",
-    price: "₺150",
+    name: "Rayban Güneş Gözlüğü",
+    price: "₺750",
   },
   {
     cover: "./images/arrivals/arrivals2.png",
-    name: "Makyaj Ürünleri",
-    price: "₺250",
+    name: "Mac Makyaj Seti",
+    price: "₺1500",
   },
   {
     cover: "./images/arrivals/arrivals3.png",
-    name: "Akıllı Saat",
-    price: "₺50",
+    name: "Xiaomi Mi Band 5",
+    price: "₺500",
   },
   {
     cover: "./images/arrivals/arrivals4.png",
-    name: "Ruj",
-    price: "₺15",
+    name: "Pastel Ruj",
+    price: "₺60",
   },
   {
     cover: "./images/arrivals/arrivals5.png",
-    name: "Bitkiler",
-    price: "₺10",
+    name: "LTB Sweatshirt",
+    price: "₺350",
   },
   {
     cover: "./images/arrivals/arrivals6.png",
-    name: "Bonsai Ağacı",
-    price: "₺400",
+    name: "Mavi Erkek T-shirt",
+    price: "₺200",
   },
 ]
 

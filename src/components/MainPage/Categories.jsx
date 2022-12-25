@@ -32,7 +32,7 @@ const Categories = () => {
     },
     {
       cateImg: "./images/category/cat8.png",
-      cateName: "Evcil Hayvanlar",
+      cateName: "Evcil Hayvan Ürünleri",
     },
     {
       cateImg: "./images/category/cat9.png",

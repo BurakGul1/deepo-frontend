@@ -10,7 +10,7 @@ const TopCate = () => {
           <div className='heading d_flex'>
             <div className='heading-left row  f_flex'>
               <i className='fa-solid fa-border-all'></i>
-              <h2>En İyi Kategoriler</h2>
+              <h2>Haftanın İstatistikleri</h2>
             </div>
             <div className='heading-right row '>
               <span>Tümünü Gör</span>
