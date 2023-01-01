@@ -1,7 +1,11 @@
 import React from "react"
 import FlashCard from "./FlashCard"
 import "./style.css"
-
+/**
+  import React, { useState, useEffect } from 'react'
+  import axios from "axios"
+  Buraya apiden gelen ürün bilgileri yerleştirilecek.
+ */
 const FlashDeals = ({ productItems, addToCart }) => {
   return (
     <>

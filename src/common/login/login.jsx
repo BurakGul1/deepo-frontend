@@ -1,6 +1,90 @@
 import React from "react";
 import "./login.css"
 
+
+/**
+ * import axios from "axios";
+   import React, { useState,    } from "react";
+ *const [email, setEmail] = useState(""); Bunu kullanıcı adı olarak değiştir.
+  const [pass, setPass] = useState("");
+  const [sc, setSc] = useState(false);
+  const [error, setError] = useState("");
+
+  const nagivate = useNavigate();
+  // const { setAuth } = useContext(AuthContext);
+  const loginSubmitHandler = async (e) => {
+    e.preventDefault();
+    try {
+      await authService.login(email,pass).then(
+        () => {
+          nagivate('/')
+          window.location.reload();
+        },
+        (err) => {
+          console.log(err)
+        }
+      );
+    } catch (error) {
+      console.log(error);
+    }
+  };
+    // -------------------- Register ------------------------------
+  const [registerEmail, setRegisterEmail] = useState("");
+  const [name, setName] = useState("");
+  const [registerPass, setRegisterPass] = useState("");
+  const [registerCPass, setRegisterCPass] = useState("");
+  const [loading, setLoading] = useState(false);
+
+  const registerSubmitHandler = async (e) => {
+    e.preventDefault();
+
+    if (registerPass !== registerCPass) {
+      setMsg("Şifreler Uyuşmuyor");
+    } else {
+      setMsg(null);
+      try {
+        await authService.signup(
+          registerEmail,
+          registerPass,
+          name)
+          .then(
+          () => {
+            nagivate("/PageLogin")
+            window.location.reload();
+            window.alert("Giriş Yapabilirsiniz.")
+            },
+            (err) => {
+              console.log(err)
+          }
+        )
+        // const config = {
+        //   headers: {
+        //     "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+        //   },
+        // };
+        // setLoading(true);
+        // const { data } = await axios.post(
+        //   "api/users/signup",
+        //   {
+        //     name: name,
+        //     email: registerEmail,
+        //     password: registerPass,
+        //   },
+        //   config
+        // );
+        // setLoading(false);
+
+        // localStorage.setItem("userInfo", JSON.stringify(data));
+        // console.log(data);
+
+      } catch (error) {
+        console.error(error.response.data.msg);
+      }
+    }
+  };
+  // ---------------------------------------------------------------------
+
+ */
 export default function Login() {
   return (
     <div>

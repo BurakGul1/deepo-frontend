@@ -1,6 +1,45 @@
 import React from "react"
 import "./style.css"
+/**const ProductInfo = () => {
 
+  
+  const [quantity,setquantity] = useState(1);
+  const [index, setIndex] = useState(0);
+  const { productId } = useParams()
+
+  const [product, setProduct] = useState([])
+  const [img, setImg] = useState([])
+
+  useEffect(() => {
+    getProduct();
+    getImages();
+  },[])
+
+  const getProduct = () => {
+    let isMounted = true;
+    axios.get(`http://localhost:8080/api/products/${productId}`)
+    .then((response) => {
+      if(isMounted){
+        console.log(response)
+        setProduct(response.data.product);
+      }
+      
+    })
+    return () => {
+      isMounted = false;
+    }
+  }
+  console.log(productId)
+  const getImages = () => {
+    axios.get(`http://localhost:8080/api/images/${productId}`)
+      .then((res) => {
+        setImg(res.data.images)
+        console.log(res)
+      })
+  }
+
+  const dispatch = useDispatch()
+ */
 const Cart = ({ CartItem, addToCart, decreaseQty }) => {
   //ögelerin toplamını hesaplama..
   const totalPrice = CartItem.reduce((price, item) => price + item.qty * item.price, 0)
